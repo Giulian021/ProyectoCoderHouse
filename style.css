@@ -50,6 +50,7 @@ label {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transform: translate(760px);
 }
 
 /* Add a red background color to navigation links on hover */
@@ -60,3 +61,18 @@ label {
 #a1,#a2,#a3,#a4,#a5,#a6 {
 	text-align: center;
 }
+
+.rock {
+	display: flex;
+	justify-content: center;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.rock{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;

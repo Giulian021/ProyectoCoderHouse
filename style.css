@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	font-family: 'Metal Mania', cursive;
+}
+
+h1,h2,h3,h4 {
+	color: white;
+	font-size: 40px;
+	font-family: 'Metal Mania', cursive;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-size: 25px;
+	font-family: 'Metal Mania', cursive;
+	text-align: center;
+}
+
+a {
+	list-style-type: none;
+	color: white;
+	font-size: 25px;
+}
+
+form {
+	color: white;
+	font-size: 25px;
+}
+
+label {
+	text-align: center;
+}
+
+#video1,#video2,#video3 {
+  text-align: center;
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+#a1,#a2,#a3,#a4,#a5,#a6 {
+	text-align: center;
+}

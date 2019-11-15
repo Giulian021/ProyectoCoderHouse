@@ -1,48 +1,50 @@
 body {
-	background-color: black;
-	font-family: 'Metal Mania', cursive;
-}
+  background-color: black;
+  font-family: 'Roboto', sans-serif; }
 
-h1,h2,h3,h4 {
-	color: white;
-	font-size: 40px;
-	font-family: 'Metal Mania', cursive;
-	text-align: center;
-}
+h1, h2, h3, h4 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
 
 p {
-	color: white;
-	font-size: 25px;
-	font-family: 'Metal Mania', cursive;
-	text-align: center;
-}
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
 
 a {
-	list-style-type: none;
-	color: white;
-	font-size: 25px;
-}
+  list-style-type: none;
+  color: white;
+  font-size: 25px; }
 
 form {
-	color: white;
-	font-size: 25px;
-}
+  color: white;
+  font-size: 25px; }
 
 label {
-	text-align: center;
+  text-align: center; }
+
+#video1, #video2, #video3 {
+  text-align: center; }
+
+.logo {
+  display: grid;
+  justify-content: center;
+  margin: 50px;
 }
 
-#video1,#video2,#video3 {
-  text-align: center;
-}
-
-/* The navigation menu */
 .navbar {
   overflow: hidden;
-  background-color: grey;
+  background-color: grey; 
+  position:fixed;
+  z-index:1000;
+  top:0;
+  width:100%;
+  box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
 
-/* Navigation links */
 .navbar a {
   float: left;
   font-size: 16px;
@@ -50,29 +52,32 @@ label {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transform: translate(760px);
-}
+  transform: translate(700px); }
 
-/* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: red; }
+
+.centrado {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
-#a1,#a2,#a3,#a4,#a5,#a6 {
-	text-align: center;
-}
+#manosgirando {
+  display: flex;
+  justify-content: space-around; }
 
-
-#h95 {
-	display: flex;
-	justify-content: space-around;
+.form {
+  margin: 50px;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  color: black;
+  font-family: 'Turret Road', cursive;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
 }
-@keyframes rotate {from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}}
-@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
-  to {-webkit-transform: rotate(360deg);}}
-.rock{
-    -webkit-animation: 3s rotate linear infinite;
-    animation: 3s rotate linear infinite;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;

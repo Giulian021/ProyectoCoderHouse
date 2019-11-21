@@ -1,45 +1,44 @@
 body {
   background-color: black;
-  font-family: 'Metal Mania', cursive;
-}
+  font-family: 'Roboto', sans-serif; }
 
-h1,h2,h3,h4 {
+h1, h2, h3, h4 {
   color: white;
   font-size: 40px;
-  font-family: 'Metal Mania', cursive;
-  text-align: center;
-}
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
 
 p {
   color: white;
   font-size: 25px;
-  font-family: 'Metal Mania', cursive;
-  text-align: center;
-}
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
 
 a {
   list-style-type: none;
   color: white;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 form {
   color: white;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 label {
-  text-align: center;
-}
+  text-align: center; }
 
-#video1,#video2,#video3 {
-  text-align: center;
-}
+.logo {
+  display: grid;
+  justify-content: center;
+  margin: 50px; }
 
 .navbar {
   overflow: hidden;
-  background-color: grey;
-}
+  background-color: black;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5); }
 
 .navbar a {
   float: left;
@@ -48,19 +47,59 @@ label {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transform: translate(760px);
-}
+  transform: translate(700px); }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
+  background-color: red; }
 
-#a1,#a2,#a3,#a4,#a5,#a6 {
+.centrado__index {
+  display: grid;
   text-align: center;
-}
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
 
-#h95 {
-  display: flex;
-  justify-content: space-around;
-}
+.centrado__miranos {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
 
+.centrado__contacto {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.centrado__fechas {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }  
+
+.centrado__integrantes {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }  
+
+.form {
+  margin: 50px;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  color: black;
+  font-family: 'Turret Road', cursive;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center; }
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 200px; }
